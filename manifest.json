@@ -1,0 +1,20 @@
+{
+  "name": "Versace Twitter",
+  "version": "1.0",
+  "description": "Improves DMs and revives ye olde fav star.",
+  "content_scripts": [{
+    "matches": ["*://*.twitter.com/*"],
+    "css": ["versace_twitter.css"],
+    "run_at": "document_start"
+  }],
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon48.png"
+  },
+ "web_accessible_resources": [
+     "images/star-filled.png",
+     "images/star.png"
+  ],
+  "manifest_version": 2
+}
