@@ -1,3 +1,25 @@
+var _ = require('lodash');
+
+/*
+Functions to get and set values in objects without mutating them.
+Exposes `get` and `set`.
+
+get: (obj, path, [defaultValue]) -> value
+  obj: Object - The object into which to peeeerrrrr
+  path: String | Array - Either a path in string form ('foo.0.bar'), or in array
+    form (['foo', 0, 'bar']).
+  defaultValue: Any - A value to return if `path` does not exists in `obj`
+    (defaults to `undefined`).
+  returns the value at `path` in `object`; or `defaultValue` if no such `path`
+
+set: (obj, path, value) -> obj'
+  obj: Object - The object to edit.
+  path: String | Array - Either a path in string form ('foo.0.bar'), or in array
+    form (['foo', 0, 'bar']).
+  value: Any - The new value to place at the provided path.
+  returns a copy of `obj` with the newly set path.
+*/
+
 // modified from `object-path` to produce new objects instead of mutating
 // https://github.com/mariocasciaro/object-path
 function getKey(key){

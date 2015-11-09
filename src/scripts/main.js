@@ -1,6 +1,6 @@
-$ = require('jquery');
-Configuration = require('./configuration');
-Application = require('./app');
+var $ = require('jquery');
+var Configuration = require('./configuration');
+var Application = require('./app');
 
 window.onload = function () {
   // TODO: switch on user configuration

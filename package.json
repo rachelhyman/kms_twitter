@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build:vendor": "mkdir -p $npm_package_config_dist_scripts & browserify -r lodash -r jquery -o $npm_package_config_dist_scripts/vendor.js",
-    "build:js": "mkdir -p $npm_package_config_dist_scripts & browserify -x lodash -x jquery $npm_package_config_src_scripts/main.js -o $npm_package_config_dist_scripts/main.js",
+    "build:js": "mkdir -p $npm_package_config_dist_scripts & browserify -x lodash $npm_package_config_src_scripts/main.js -o $npm_package_config_dist_scripts/main.js",
     "watch:js": "mkdir -p $npm_package_config_dist_scripts & watchify -x lodash -x jquery $npm_package_config_src_scripts/main.js -o $npm_package_config_dist_scripts/main.js",
     "build:css": "mkdir -p $npm_package_config_dist_style & stylus -m -o dist/css src/style",
     "watch:css": "mkdir -p $npm_package_config_dist_style & stylus -m -o dist/css src/style -w",
