@@ -5,7 +5,7 @@
   "content_scripts": [{
     "matches": ["*://*.twitter.com/*"],
     "css": ["assets/css/kms_twitter.css"],
-    "js": ["assets/js/main.js"],
+    "js": ["assets/js/vendor/jquery-1.11.3.min.js", "assets/js/main.js"],
     "run_at": "document_start"
   }],
   "icons": { 
