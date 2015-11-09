@@ -1,10 +1,12 @@
 var routeObject = require('./util/route-object');
-var directMessage = require('./modules/dm');
+var DirectMessage = require('./modules/dm');
+var Hotkeys = require('./hotkeys');
 
 var Application = {
   start: function (configuration) {
     return routeObject(configuration, {
-      'directMessage': directMessage.start
+      'hotkeys': Hotkeys.start,
+      'directMessage': DirectMessage.start
     });
   }
 }
