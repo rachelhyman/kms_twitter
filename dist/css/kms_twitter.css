@@ -1,7 +1,3 @@
-.DMDialog {
-  background-color: #008000;
-/* Fullscreen DM */
-}
 .DMDialog.kms-fullscreen {
   overflow: hidden !important;
 }
