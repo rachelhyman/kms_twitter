@@ -1,4 +1,4 @@
-// var $ = require('jquery');
+var $ = require('jquery');
 var routeObject = require('../util/route-object');
 
 var k = {
@@ -12,7 +12,6 @@ var k = {
 
 var dm = {
   start: function (config) {
-    console.log('ahered', $);
     routeObject(config, {
       'fullscreen': dm.setFullscreen
     });
