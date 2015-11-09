@@ -1,6 +1,7 @@
 var Mousetrap = require('mousetrap');
 var modules = {
-  'dm': require('./modules/dm')
+  'dm': require('./modules/dm'),
+  'user': require('./modules/user')
 }
 
 var Hotkeys = {

@@ -5,6 +5,11 @@ var Configuration = {
         key: 'd',
         module: 'dm',
         action: 'toggleVisible'
+      },
+      {
+        key: 'l',
+        module: 'user',
+        action: 'navigateToLists'
       }
     ],
     directMessage: {
