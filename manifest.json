@@ -4,7 +4,8 @@
   "description": "A variety of UI improvements for Twitter.",
   "content_scripts": [{
     "matches": ["*://*.twitter.com/*"],
-    "css": ["kms_twitter.css"],
+    "css": ["assets/css/kms_twitter.css"],
+    "js": ["assets/js/main.js"],
     "run_at": "document_start"
   }],
   "icons": { 
@@ -12,8 +13,8 @@
     "128": "icon128.png" 
  },
  "web_accessible_resources": [
-     "images/star-filled.png",
-     "images/star.png"
+     "assets/images/star-filled.png",
+     "assets/images/star.png"
   ],
   "manifest_version": 2
 }
