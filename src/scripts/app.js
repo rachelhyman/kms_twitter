@@ -6,7 +6,7 @@ var Application = {
   start: function (configuration) {
     return routeObject(configuration, {
       'hotkeys': Hotkeys.start,
-      'directMessage': DirectMessage.start
+      'DirectMessages': DirectMessage.start
     });
   }
 }

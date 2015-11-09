@@ -1,8 +1,5 @@
 var Mousetrap = require('mousetrap');
-var modules = {
-  'dm': require('./modules/dm'),
-  'user': require('./modules/user')
-}
+var Modules = require('./modules/modules');
 
 var Hotkeys = {
   /*
@@ -32,7 +29,7 @@ var Hotkeys = {
     dictionary.
   */
   addHotkey: function (key, moduleKey, actionKey) {
-    var module = modules[moduleKey];
+    var module = Modules[moduleKey];
     if (module != null) {
       var action = module.actions[actionKey];
       if (action != null) {

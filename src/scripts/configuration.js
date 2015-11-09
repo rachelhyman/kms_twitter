@@ -3,16 +3,16 @@ var Configuration = {
     hotkeys: [
       {
         key: 'd',
-        module: 'dm',
+        module: 'DirectMessages',
         action: 'toggleVisible'
       },
       {
         key: 'l',
-        module: 'user',
+        module: 'User',
         action: 'navigateToLists'
       }
     ],
-    directMessage: {
+    DirectMessages: {
       fullscreen: false
     }
   })
