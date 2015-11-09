@@ -1,7 +1,7 @@
 {
   "name": "KMS Twitter",
-  "version": "1.0",
-  "description": "Improves DMs and revives ye olde fav star.",
+  "version": "1.0.1",
+  "description": "A variety of UI improvements for Twitter.",
   "content_scripts": [{
     "matches": ["*://*.twitter.com/*"],
     "css": ["kms_twitter.css"],
