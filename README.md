@@ -1,11 +1,13 @@
+welcome to kms twitter
+
 install:
 
-1. unzip versace_dm.zip
-2. go to chrome://extensions/ in ur browser
+1. go to chrome://extensions/ in ur browser
 3. enable developer mode by clicking checkbox in upper right
-3. drag versace_dm folder onto extensions page
-4. that’s it, ur DM window on twitter should be fullscreen 
+3. click "load unpacked extension"
+4. navigate to kms_twitter and directory and select it
+5. that's it ur done
 
-any problems plz DM me @versacejs
+~=-brought to u by computer lab xr-=~ 
 
 ty and good luck
