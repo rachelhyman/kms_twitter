@@ -1,13 +1,18 @@
-welcome to kms twitter
+KMS Twitter
 
-installing the extension:
+New Features
 
-1. go to chrome://extensions/ in ur browser
-3. enable developer mode by clicking checkbox in upper right
-3. click "load unpacked extension"
-4. navigate to kms_twitter/dist and select it
-5. that's it ur done
+* Press "D" to Toggle DM Modal
+* Press "L" to Toggle Lists
+* Chat-Friendly Full Window DMing
 
-~=-brought to u by computer lab xr-=~ 
+Installing The Extension: 
 
-ty and good luck
+1. Go to chrome://extensions/ in Google Chrome
+3. Enable developer mode by clicking checkbox in upper right
+3. Click "Load Unpacked Extension"
+4. Navigate to kms_twitter/dist and select
+
+~=-brought to you by computer lab-=~ 
+
+ty and good luck :-)
