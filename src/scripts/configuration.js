@@ -13,7 +13,7 @@ var Configuration = {
       }
     ],
     DirectMessages: {
-      fullscreen: false
+      fullscreen: true
     }
   })
 };
