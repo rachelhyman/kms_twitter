@@ -1,4 +1,5 @@
 var $ = require('jquery');
+var Modules = require('./modules');
 
 var k = {
   Twitter: {
@@ -6,13 +7,13 @@ var k = {
   }
 }
 
-var User = {
+var User = Modules.create('User', {
   actions: {
     navigateToLists: function () {
       $(k.Twitter.ListsNavButton).get()[0].click();
     }
   }
-}
+});
 
 
 module.exports = User;
