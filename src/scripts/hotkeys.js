@@ -1,7 +1,8 @@
 var Mousetrap = require('mousetrap');
 var Modules = require('./modules/modules');
 
-var Hotkeys = {
+
+var Hotkeys = Modules.create('Hotkeys', {
   /*
   Registers all hotkey listeners.
 
@@ -18,7 +19,6 @@ var Hotkeys = {
     });
   },
 
-
   /*
   Registers a single hotkey.
 
@@ -29,7 +29,7 @@ var Hotkeys = {
     dictionary.
   */
   addHotkey: function (key, moduleKey, actionKey) {
-    var module = Modules[moduleKey];
+    var module = Modules.get(moduleKey);
     if (module != null) {
       var action = module.actions[actionKey];
       if (action != null) {
@@ -43,6 +43,6 @@ var Hotkeys = {
                     moduleKey);
     }
   }
-};
+});
 
 module.exports = Hotkeys;
