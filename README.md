@@ -11,10 +11,10 @@ New Features
 Building
 
 * install dependencies 
-$ npm install
+* $ npm install
 
 * build everything, puts into dist directory 
-$ npm run build:all
+* $ npm run build:all
 
 
 Installing The Extension on Chrome: 
