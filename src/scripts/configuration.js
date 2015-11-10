@@ -1,7 +1,19 @@
 var Configuration = {
   default: Object.freeze({
-    directMessage: {
-      fullscreen: true
+    hotkeys: [
+      {
+        key: 'd',
+        module: 'DirectMessages',
+        action: 'toggleVisible'
+      },
+      {
+        key: 'l',
+        module: 'User',
+        action: 'navigateToLists'
+      }
+    ],
+    DirectMessages: {
+      fullscreen: false
     }
   })
 };
