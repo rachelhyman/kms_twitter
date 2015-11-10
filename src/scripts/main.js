@@ -4,6 +4,7 @@ var Application = require('./app');
 
 require('./modules/dm');
 require('./modules/user');
+require('./modules/timeline');
 require('./hotkeys');
 
 window.onload = function () {

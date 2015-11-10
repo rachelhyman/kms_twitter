@@ -14,6 +14,13 @@ var Configuration = {
     ],
     DirectMessages: {
       fullscreen: true
+    },
+    Timeline: {
+      likeTooltip: {
+        like: 'Smash',
+        unlike: 'Unsmash'
+      },
+      likeEmoji: 'x'
     }
   })
 };
