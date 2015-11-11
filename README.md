@@ -5,7 +5,7 @@
 * Press `D` to Toggle DM Modal
 * Press `L` to Toggle Lists
 * Chat-Friendly Full Window DMing
-
+* Custom emoji icons for like/unlike
 
 ## Build
 
