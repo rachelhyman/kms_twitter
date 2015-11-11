@@ -20,7 +20,10 @@ var Configuration = {
         like: 'Smash',
         unlike: 'Unsmash'
       },
-      likeEmoji: 'x'
+      // likeEmoji: {
+      //   liked: '\\1F63B',
+      //   unliked: '\\1F63A'
+      // }
     }
   })
 };
