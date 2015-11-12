@@ -1,6 +1,6 @@
 var Configuration = {
   default: Object.freeze({
-    hotkeys: [
+    Hotkeys: [
       {
         key: 'd',
         module: 'DirectMessages',
@@ -14,6 +14,16 @@ var Configuration = {
     ],
     DirectMessages: {
       fullscreen: true
+    },
+    Timeline: {
+      likeTooltip: {
+        like: 'Smash',
+        unlike: 'Unsmash'
+      },
+      // likeEmoji: {
+      //   liked: '\\1F63B',
+      //   unliked: '\\1F63A'
+      // }
     }
   })
 };

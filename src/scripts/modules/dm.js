@@ -1,4 +1,5 @@
 var $ = require('jquery');
+var Modules = require('./modules');
 var routeObject = require('../util/route-object');
 
 var k = {
@@ -12,10 +13,19 @@ var k = {
   }
 };
 
-var DirectMessages = {
+
+function setFullscreen (shouldBeFullscreen) {
+  if (shouldBeFullscreen) {
+    $(k.Twitter.DialogSelector).addClass(k.KMS.FullscreenClass);
+  } else {
+    $(k.Twitter.DialogSelector).removeClass(k.KMS.FullscreenClass);
+  }
+}
+
+var DirectMessages = Modules.create('DirectMessages', {
   start: function (config) {
     routeObject(config, {
-      'fullscreen': DirectMessages.setFullscreen
+      'fullscreen': setFullscreen
     });
   },
 
@@ -40,13 +50,7 @@ var DirectMessages = {
     isOverlayVisible: function () {
       return $(k.Twitter.DialogSelector).is(':visible');
     }
-  },
-
-  setFullscreen: function (shouldBeFullscreen) {
-    if (shouldBeFullscreen) {
-      $(k.Twitter.DialogSelector).addClass(k.KMS.FullscreenClass);
-    }
   }
-};
+});
 
 module.exports = DirectMessages;
