@@ -23,9 +23,7 @@ var User = Modules.create('User', {
 
   actions: {
     navigateToLists: function () {
-      // get the url associated with upper-right dropdown menu's lists link
-      window.location = $(k.Twitter.ListsNavButton).attr('href')
-                      || ('/' + User.state.getUsername() + '/lists');
+      window.location = '/lists';
     }
   }
 });
