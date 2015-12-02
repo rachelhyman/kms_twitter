@@ -30,10 +30,11 @@ Other build scripts are documented in `npm-scripts-docs.md` in the root director
 
 ## Install
 
-1. Go to [chrome://extensions/](chrome://extensions/) in Google Chrome
+1. Follow steps 1-2 in the Build section above 
+2. Go to [chrome://extensions/](chrome://extensions/) in Google Chrome
 3. Enable developer mode by clicking checkbox in upper right
-3. Click "Load Unpacked Extension"
-4. Navigate to `kms_twitter/dist` and select
+4. Click "Load Unpacked Extension"
+5. Navigate to `kms_twitter/dist` and select
 
 
 ~=-brought to you by computer lab-=~ 
